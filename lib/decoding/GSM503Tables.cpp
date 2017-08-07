@@ -9,6 +9,10 @@
     This program is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+    
+    Channel coding (GSM 05.03)
+    http://www.etsi.org/deliver/etsi_gts/05/0503/05.02.00_60/gsmts_0503v050200p.pdf
+
 
 */
 
@@ -19,6 +23,7 @@
 
 /*
 	This array encodes GSM 05.03 Table 7.
+	
 */
 const unsigned int GSM::gAMRBitOrderTCH_AFS12_2[244] = {
 	   0,   1,   2,   3,   4,   5,   6,   7,   8,   9,
